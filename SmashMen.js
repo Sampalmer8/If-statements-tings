@@ -8,8 +8,6 @@
 //     alert("My name is better thean yours. Bozo. L + ratio. Skill Issue.")
 // }
 
-
-
 // // Input
 // let height = +prompt("How tall are you in inches?");
 
@@ -19,8 +17,6 @@
 // } else {
 //     alert("Yeah you aight cuh.");
 // }
-
-
 
 // // Input
 // let num = +prompt("Choose any number in the world:");
@@ -33,8 +29,6 @@
 // } else {
 //     alert("That's positive like your AIDS test result my boy");
 // }
-
-
 
 // // Input
 // let grade = +prompt("Enter your probably crappy average in school last year");
@@ -50,38 +44,64 @@
 //     alert("You gotta have something wrong with you");
 // }
 
-
-
 // // Input
 // let divis2 = +prompt("Enter a number");
 // let number = divis2 / 2
 
 // // Process / Output
-// if (Number.isInteger(number)) {
+// if (divis2 % 2 === 0) {
 //     alert("Yea that's divisible by 2 my boy");
 // } else {
 //     alert("Nah boy that ain't divisible by 2");
 // }
 
+// // Input
+// let x = +prompt("Enter a x coordinate");
+// let y = +prompt("Enter a y coordinate");
 
+// // Process / Output
+// if (x > 0 && y > 0 ) {
+//     alert("That do be quadrant 1 in the top right");
+// } else if (x < 0 && y > 0) {
+//     alert("That's in the second quadrant in the top left");
+// } else if (x < 0 && y < 0) {
+//     alert("That's the third quadrant in the bottom left");
+// } else if (x > 0 && y < 0) {
+//     alert("That's the fourth and final quadrant in the bottom right");
+// } else if (x === 0 && y === 0) {
+//     alert("That's the origin in the center of the graph bro");
+// } else if (x === 0 && y != 0) {
+//     alert("That's on the the y-axis");
+// } else {
+//     alert("That's on the x-axis boy");
+// }
 
-// Input
-let x = +prompt("Enter a x coordinate");
-let y = +prompt("Enter a y coordinate");
+// // Input
+// let ordinal = +prompt("Enter a number between 1 and 9:");
 
-// Process / Output
-if (x > 0 && y > 0 ) {
-    alert("That do be quadrant 1 in the top right");
-} else if (x < 0 && y > 0) {
-    alert("That's in the second quadrant in the top left");
-} else if (x < 0 && y < 0) {
-    alert("That's the third quadrant in the bottom left");
-} else if (x > 0 && y < 0) {
-    alert("That's the fourth and final quadrant in the bottom right");
-} else if (x === 0 && y === 0) {
-    alert("That's the origin in the center of the graph bro");
-} else if (x === 0 && y != 0) {
-    alert("That's on the the y-axis");
-} else {
-    alert("That's on the x-axis boy");
-}
+// // Process / Output
+// if (ordinal > 9) {
+//     alert("Your number was too big");
+// } else if (ordinal === 1) {
+//     alert(`${ordinal}st`);
+// } else if (ordinal === 2) {
+//     alert(`${ordinal}nd`);
+// } else if (ordinal === 3) {
+//     alert(`${ordinal}rd`);
+// } else if (ordinal === 0) {
+//     alert("You entered 0");
+// } else {
+//     alert(`${ordinal}th`);
+// }
+
+// // Input
+// let balance = +prompt("What is your credit card balance");
+
+// // Process / Output
+// if (balance < 10) {
+//     alert(`Your payment is $${balance}`)
+// } else if (balance > 10 && 10 < (balance * 0.021)) {
+//     alert(`Your payment is $${balance * 0.021}`)
+// } else {
+//     alert(`Your payment is $10`);
+// }
